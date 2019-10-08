@@ -1,4 +1,4 @@
-![](https://travis-ci.org/feng-lei/dl_coursera.svg?branch=master)![](https://img.shields.io/pypi/v/dl_coursera)![](https://img.shields.io/github/license/feng-lei/dl_coursera)
+[![](https://travis-ci.org/feng-lei/dl_coursera.svg?branch=master)](https://travis-ci.org/feng-lei/dl_coursera/builds)[![](https://img.shields.io/pypi/v/dl_coursera)](https://pypi.org/project/dl-coursera/)[![](https://img.shields.io/github/license/feng-lei/dl_coursera)](https://github.com/feng-lei/dl_coursera/blob/master/LICENSE.txt)
 
 ## Todo
 
@@ -9,9 +9,14 @@
 
 ## Install
 
-> Python 3.x is required. It is recommended to install this tool in a virtual environment.
+Python **⩾3.5** is required. It is **RECOMMENDED** to install `dl_coursera` in a virtual environment.
 
 ```
+# make sure you have Python ⩾3.5
+$ python -c "from __future__ import print_function; import sys; print(':-)' if sys.version_info >= (3, 5) else ':-(')"
+:-)
+
+# install the latest version of dl_coursera
 $ pip install -U dl_coursera
 $ dl_coursera --version
 ```
